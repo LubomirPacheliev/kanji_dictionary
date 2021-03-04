@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <p id="logo">字</p>
-            <input type="search" placeholder="Search characters, places, series, etc" maxLength="55"></input>
+            <input type="search" placeholder="Search characters, places, series, etc" maxLength="45"></input>
             <button className="search-btn"><i class="fas fa-search"></i></button>
             <button>
                 <p className="buttonIcon">あ</p>
