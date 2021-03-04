@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #edf8ff;
+}
+
+.navbar {
+  background-color: #0088de;
+  height: 72px;
+}
+
+.navbar button {
+  position: relative;
+  background-color: #009b6a;
+  top: -53px;
+  left: 1480px;
+  height: 45px;
+  width: 45px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 6px;
+  border: solid #009b6a 8px;
+  cursor: pointer;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+.navbar button:active {
+  box-shadow: 2px 2px black;
+}
+
+.navbar .search-btn {
+  position: absolute;
+  left: 1410px;
+  top: 12px;
+  padding: -5px 1px;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid rgba(0, 0, 0, 0);
+}
+
+.navbar button i {
+  transform: rotate(90deg);
+  color: #009b6a;
+  padding: 5px 1px;
+  margin-left: 6px;
+  border-bottom: solid #009b6a 2px;
+  width: 30px;
+}
+
+.navbar button p {
+  position: relative;
+  font-size: 13px;
+  margin-top: 3px;
+  top: -20px;
+}
+
+#secondButtonDesc {
+  top: -17px;
+  left: -4px;
+}
+
+.navbar .buttonIcon {
+  font-size: 23px;
+  font-weight: 100px;
+  top: -12px;
+}
+
+/* .navbar button: {
+  
+} */
+
+.navbar input {
+  position: absolute;
+  top: 14px;
+  left: 430px;
+  height: 44px;
+  width: 1036px;
+  font-size: 30px;
+  border-radius: 10px;
+  border-color: #0088de;
+}
+
+.navbar input::placeholder {
+  padding-left: 10px;
+}
+
+.navbar input:focus {
+  outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#logo {
+  font-size: 44px;
+  font-weight: 100px;
+  color: white;
+  padding: 3px 0px;
+  margin-left: 37px;
+}
