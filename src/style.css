@@ -122,5 +122,68 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .dictionary_page .picture {
+  position: relative;
+  top: 40px;
+  left: 64px;
+  width: 191px;
+  height: 297px;
+  border-radius: 10px 10px 5px 7px;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("https://www.anime-planet.com/images/characters/dio-brando-19367.jpg?t=1587909581");
+}
+
+.dictionary_page h1 {
+  position: absolute;
+  top: 130px;
+  left: 290px;
+  font-size: 55px;
+  color: #0088de;
+}
+
+.dictionary_page p {
+  position: absolute;
+  top: 220px;
+  left: 290px;
+  max-width: 1450px;
+  font-size: 25px;
+  font-weight: 50px;
+}
+
+.dictionary_page button {
+  position: absolute;
+  left: 1600px;
+  top: 150px;
+  width: 220px;
+  height: 44px;
+  text-align: left;
+  color: white;
+  border-radius: 12px;
+}
+
+.dictionary_page button span:first-child {
+  position: relative;
+  top: -15px;
+  font-size: 40px;
+  margin-right: 10px;
+  padding-right: 2px;
+  border-right: solid 2px white;
+}
+
+.dictionary_page button span:last-child {
+  position: relative;
+  display: inline;
+  font-size: 30px;
+  top: -17px;
+}
+
+.breakdown-field {
+  position: relative;
+  margin-top: 21px;
+  top: 110px;
+  left: 64px;
+  width: 1792px;
+  min-height: 469px;
+  height: fit-content;
+  background-color: #0088de;
 }
